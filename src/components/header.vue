@@ -1,42 +1,32 @@
 <template>
   <header>
     <div class="header-nav">
-      <p class="logo green-text accent-3">
-        小野 研究所
-        <span>Kobe University</span>
-      </p>
-      <i @click="showMenu()" class="material-icons">menu</i>
+      <router-link to="/">
+        <p class="logo green-text accent-3">
+          小野 研究室
+          <span>Kobe University</span>
+        </p>
+      </router-link>
+      <i @click="menuShow = true" class="material-icons">menu</i>
     </div>
     <template v-if="menuShow">
-      <div
-        :class="{menu: true, animate__animated: true, animate__fadeInDown: bool1, animate__fadeOutUp: bool2}"
-      >
+      <div class="menu animate__animated animate__fadeInDown">
         <i @click="menuShow = false" class="material-icons close">close</i>
         <ul class="links">
           <li>
-            <a href>
-              <!-- <span>
-                <i class="material-icons tiny">check</i>
-              </span>ご挨拶-->
-            </a>
+            <router-link to="/greet">自己紹介</router-link>
           </li>
           <li>
-            <a href>研究領域</a>
+            <router-link to="/field">研究領域</router-link>
           </li>
           <li>
-            <a href>研究業績</a>
+            <router-link to="/achievement">研究業績</router-link>
           </li>
           <li>
-            <a href>メンバー</a>
+            <router-link to="/member">メンバー</router-link>
           </li>
           <li>
-            <a href>イベント</a>
-          </li>
-          <li>
-            <a href>研究室に興味がある皆さまへ</a>
-          </li>
-          <li>
-            <a href>関連リンク</a>
+            <router-link to="/tonewcomer">研究室に興味がある皆さまへ</router-link>
           </li>
         </ul>
       </div>
@@ -49,14 +39,14 @@ import VAnimateCss from "animate.css";
 export default {
   data() {
     return {
-      menuShow: false,
-      bool1: true,
-      bool2: false
+      menuShow: false
     };
   },
-  methods: {
-    showMenu() {
-      this.menuShow = true;
+  watch: {
+    $route: function(to, from) {
+      if (to.path !== from.path) {
+        this.menuShow = false;
+      }
     }
   }
 };
@@ -64,6 +54,10 @@ export default {
 
 <style lang="scss" scoped>
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 80;
   height: 120px;
   background: white;
   .header-nav {
@@ -120,6 +114,22 @@ header {
       }
       a:hover {
         color: #eee;
+      }
+    }
+  }
+}
+@media (max-width: 750px) {
+  .menu {
+    height: 100vh;
+    .links {
+      display: block;
+      margin-top: 200px;
+    }
+    ul {
+      li {
+        margin-top: 3.5rem;
+        margin-right: 45px;
+        border-bottom: #fff 1px solid;
       }
     }
   }
