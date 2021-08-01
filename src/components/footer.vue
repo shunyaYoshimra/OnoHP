@@ -8,7 +8,7 @@
             <h3 class="footer-title green-text accent-3">小野 研究室</h3>
           </router-link>
           <p class="green-text accent-3">Kobe University</p>
-          <div class="fixed-action-btn">
+          <div class="fixed-action-btn hide">
             <a class="btn-floating btn-large green darken-3">
               <i class="large material-icons">contact_mail</i>
             </a>

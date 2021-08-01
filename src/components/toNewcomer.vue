@@ -1,5 +1,5 @@
 <template>
-  <div>研究室に興味がある皆さまへ</div>
+  <div>作成中。。。</div>
 </template>
 
 <script>
