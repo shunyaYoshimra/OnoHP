@@ -6,7 +6,7 @@
       <div class="each-person">
         <p>
           円丁 春陽
-          <span>(地域高齢者)</span>
+          <span>(地域在住高齢者)</span>
         </p>
       </div>
       <div class="each-person">
@@ -24,13 +24,13 @@
       <div class="each-person">
         <p>
           三輪 早智子
-          <span>(地域高齢者)</span>
+          <span>(地域在住高齢者)</span>
         </p>
       </div>
       <div class="each-person">
         <p>
           向所 真音
-          <span>(ウィメンズヘルス)</span>
+          <span>(妊産婦)</span>
         </p>
       </div>
       <div class="each-person">
@@ -72,7 +72,7 @@
       <div class="each-person">
         <p>
           内田 一彰
-          <span>(地域高齢者)</span>
+          <span>(地域在住高齢者)</span>
         </p>
       </div>
       <div class="each-person">
@@ -90,7 +90,7 @@
       <div class="each-person">
         <p>
           青田 絵里
-          <span>(ウィメンズヘルス)</span>
+          <span>(妊産婦)</span>
         </p>
       </div>
       <div class="each-person">
@@ -136,7 +136,7 @@
     <br />
     <br />
     <div class="ob-wrapper">
-      <h2>0B(就職先)</h2>
+      <h2>OBメンバー</h2>
       <hr color="#43a047" size="0.75rem" />
       <h4>2020年卒</h4>
       <p>
@@ -171,7 +171,8 @@
         博士課程
         <span>|</span>井上 達朗
         <span class="margin">杉本 大貴（日本学術振興会 特別研究員）</span>
-        <span class="margin">村田 俊輔（日本学術振興会 特別研究員）</span>
+        <br />
+        <span class="margin margin-new-line">村田 俊輔（日本学術振興会 特別研究員）</span>
         <span class="margin">三栖 翔吾</span>
       </p>
       <p>
@@ -262,6 +263,15 @@ export default {};
     .margin {
       margin-left: 1rem;
     }
+    .margin-new-line {
+      margin-left: 7.5rem;
+    }
+  }
+}
+@media (max-width: 480px) {
+  #member-page {
+    width: 95%;
+    font-size: 0.75rem;
   }
 }
 </style>

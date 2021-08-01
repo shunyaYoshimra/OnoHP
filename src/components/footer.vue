@@ -8,22 +8,23 @@
             <h3 class="footer-title green-text accent-3">小野 研究室</h3>
           </router-link>
           <p class="green-text accent-3">Kobe University</p>
-          <div class="fixed-action-btn hide">
-            <a class="btn-floating btn-large green darken-3">
-              <i class="large material-icons">contact_mail</i>
+          <div class="fixed-action-btn">
+            <a class="btn-floating btn-large red">
+              <i class="large material-icons">mail</i>
             </a>
             <ul>
               <li class="mail-wrapper">
                 <a
                   @mouseenter="showAddress"
                   @mouseleave="hideAddress"
-                  class="btn-floating red mail-icon"
+                  class="btn-floating green darken-3 mail-icon"
+                  href="mailto:ono@phoenix.kobe-u.ac.jp"
                 >
-                  <i class="material-icons">mail</i>
+                  <i class="material-icons">contact_mail</i>
                 </a>
-                <template v-if="mailShow">
+                <!-- <template v-if="mailShow">
                   <p class="mail-address">sample@gmail.com</p>
-                </template>
+                </template>-->
               </li>
               <li>
                 <a href="https://www.facebook.com/onolabkobe/" class="btn-floating indigo darken-2">

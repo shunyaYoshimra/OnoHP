@@ -3,7 +3,7 @@
     <div class="top-image">
       <img
         class="animate__animated animate__fadeIn"
-        src="file:///Users/yoshimurashunya/Desktop/OnoHP/dist/0b362c25aae9c57c2feb7daf0b247fd4.png"
+        src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/0b362c25aae9c57c2feb7daf0b247fd4.png"
         alt
       />
     </div>
@@ -28,12 +28,12 @@
           :class="contentItemClass[0]"
         >
           <img
-            src="file:///Users/yoshimurashunya/Desktop/OnoHP/dist/profile.png"
+            src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/dist/profile.png"
             alt
             class="title-icon"
           />
           <h2 class="content-title">自己紹介</h2>
-          <p>ここに何かしらの説明が入ります。ここに何かしらの説明が入ります。ここに何かしらの説明が入ります。</p>
+          <p>神戸大学パブリックヘルス領域 小野玲のあいさつ、略歴、所属学会などについて。</p>
           <template v-if="arrowBool[0]">
             <i class="material-icons animate__animated animate__fadeInLeft">arrow_forward</i>
           </template>
@@ -45,12 +45,12 @@
           :class="contentItemClass[1]"
         >
           <img
-            src="file:///Users/yoshimurashunya/Desktop/OnoHP/dist/field.png"
+            src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/dist/field.png"
             alt
             class="title-icon"
           />
           <h2 class="content-title">研究領域</h2>
-          <p>ここに何かしらの説明が入ります。ここに何かしらの説明が入ります。ここに何かしらの説明が入ります。</p>
+          <p>地域在住高齢者、勤労者、妊産婦、児童、がん患者を対象とした疫学研究を行なっております。</p>
           <template v-if="arrowBool[1]">
             <i class="material-icons animate__animated animate__fadeInLeft">arrow_forward</i>
           </template>
@@ -62,12 +62,12 @@
           :class="contentItemClass[2]"
         >
           <img
-            src="file:///Users/yoshimurashunya/Desktop/OnoHP/dist/achievement.png"
+            src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/dist/achievement.png"
             alt
             class="title-icon"
           />
           <h2 class="content-title">研究業績</h2>
-          <p>ここに何かしらの説明が入ります。ここに何かしらの説明が入ります。ここに何かしらの説明が入ります。</p>
+          <p>これまでにアクセプトされた論文、学会発表、獲得した研究資金などを紹介しています。</p>
           <template v-if="arrowBool[2]">
             <i class="material-icons animate__animated animate__fadeInLeft">arrow_forward</i>
           </template>
@@ -79,12 +79,12 @@
           :class="contentItemClass[3]"
         >
           <img
-            src="file:///Users/yoshimurashunya/Desktop/OnoHP/dist/member.png"
+            src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/dist/member.png"
             alt
             class="title-icon"
           />
           <h2 class="content-title">メンバー</h2>
-          <p>ここに何かしらの説明が入ります。ここに何かしらの説明が入ります。ここに何かしらの説明が入ります。</p>
+          <p>当研究室に所属しているメンバーを紹介します。</p>
           <template v-if="arrowBool[3]">
             <i class="material-icons animate__animated animate__fadeInLeft">arrow_forward</i>
           </template>
@@ -96,12 +96,12 @@
           :class="contentItemClass[5]"
         >
           <img
-            src="file:///Users/yoshimurashunya/Desktop/OnoHP/dist/event.png"
+            src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/dist/event.png"
             alt
             class="title-icon toNewcomer"
           />
           <h2 class="content-title">研究室に興味がある皆さまへ</h2>
-          <p>ここに何かしらの説明が入ります。ここに何かしらの説明が入ります。ここに何かしらの説明が入ります。</p>
+          <p>当研究室に興味がある学部生・社会人の皆様へ。社会的意義のある研究を一緒に行いませんか。</p>
           <template v-if="arrowBool[5]">
             <i class="material-icons animate__animated animate__fadeInLeft">arrow_forward</i>
           </template>
@@ -142,13 +142,13 @@ export default {
     // show sub title
     setTimeout(() => {
       this.showLate0 = true;
-    }, 1000);
+    }, 500);
     setTimeout(() => {
       this.showLate1 = true;
-    }, 2000);
+    }, 1500);
     setTimeout(() => {
       this.showLate2 = true;
-    }, 3000);
+    }, 2500);
   },
   methods: {
     nextPage(url) {
