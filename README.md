@@ -25,7 +25,7 @@ And if you edit the Code of this home page, you need to run
 ```bash
 npm run dev
 ```
-to apply your change.
+to apply your changes.
  
 # Author
  
