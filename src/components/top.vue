@@ -3,7 +3,7 @@
     <div class="top-image">
       <img
         class="animate__animated animate__fadeIn"
-        src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/0b362c25aae9c57c2feb7daf0b247fd4.png"
+        src="https://www.research.kobe-u.ac.jp/ghs-ono/dist/0b362c25aae9c57c2feb7daf0b247fd4.png"
         alt
       />
     </div>
@@ -28,7 +28,7 @@
           :class="contentItemClass[0]"
         >
           <img
-            src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/dist/profile.png"
+            src="https://www.research.kobe-u.ac.jp/ghs-ono/dist/profile.png"
             alt
             class="title-icon"
           />
@@ -45,7 +45,7 @@
           :class="contentItemClass[1]"
         >
           <img
-            src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/dist/field.png"
+            src="https://www.research.kobe-u.ac.jp/ghs-ono/dist/field.png"
             alt
             class="title-icon"
           />
@@ -62,7 +62,7 @@
           :class="contentItemClass[2]"
         >
           <img
-            src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/dist/achievement.png"
+            src="https://www.research.kobe-u.ac.jp/ghs-ono/dist/achievement.png"
             alt
             class="title-icon"
           />
@@ -79,7 +79,7 @@
           :class="contentItemClass[3]"
         >
           <img
-            src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/dist/member.png"
+            src="https://www.research.kobe-u.ac.jp/ghs-ono/dist/member.png"
             alt
             class="title-icon"
           />
@@ -96,7 +96,7 @@
           :class="contentItemClass[5]"
         >
           <img
-            src="https://www.research.kobe-u.ac.jp/ghs-ono/ono_lab/dist/event.png"
+            src="https://www.research.kobe-u.ac.jp/ghs-ono/dist/event.png"
             alt
             class="title-icon toNewcomer"
           />
