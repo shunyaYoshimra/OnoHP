@@ -1,6 +1,6 @@
 # https://github.com/shunyaYoshimra/OnoHP
  
-This is a website of Ono Laboratory at Kobe University.
+This is the website of Ono Laboratory at Kobe University.
 
 # Requirement
 
